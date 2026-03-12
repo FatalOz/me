@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get In Touch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Classic window title bar -->
+    <div class="title-bar">
+      <span class="window-title">&#128196; contact.html — Personal Site</span>
+      <span class="window-buttons">
+        <span>_</span><span>&#9633;</span><span>&#x2715;</span>
+      </span>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">About Me</a>
+      <a href="writing.html">Writing</a>
+      <a href="contact.html" class="active">Get In Touch</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+      <h1>Get In Touch</h1>
+
+      <p>
+        I'm always happy to hear from people. Drop me a message below, or reach
+        out through any of the channels listed here.
+      </p>
+
+      <hr />
+
+      <h2>Contact Details</h2>
+      <div class="section-box">
+        <table class="info-table">
+          <tr>
+            <td>Email</td>
+            <td><a href="mailto:hello@example.com">hello@example.com</a></td>
+          </tr>
+          <tr>
+            <td>GitHub</td>
+            <td><a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer">github.com/yourhandle</a></td>
+          </tr>
+          <tr>
+            <td>Mastodon</td>
+            <td><a href="https://mastodon.social/@yourhandle" target="_blank" rel="noopener noreferrer">@yourhandle@mastodon.social</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+
+      <h2>Send a Message</h2>
+      <p>Fill out the form below and I'll get back to you as soon as I can.</p>
+
+      <div class="section-box">
+        <!-- Replace action="#" with your form endpoint or mail handler -->
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Ada Lovelace" required />
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="ada@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Hello! I wanted to say..." required></textarea>
+
+          <button type="submit">[ Send Message ]</button>
+        </form>
+      </div>
+
+      <marquee scrollamount="2">
+        ★ Response times vary ★ &nbsp;&nbsp; Preferred contact: email ★ &nbsp;&nbsp; No spam, please ★
+      </marquee>
+    </main>
+
+    <!-- Status bar -->
+    <div class="status-bar">
+      <span>contact.html</span>
+      <span>Last updated: 2024</span>
+    </div>
+
+  </div>
+</body>
+</html>
